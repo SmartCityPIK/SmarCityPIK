@@ -162,6 +162,7 @@ public class MainActivity extends DBFragmentActivity implements IWhereMyLocation
                 }
             } else {
                 if (i == HOME_INDEX) {
+                    setNoDialog(true);
                     mItemDrawerObject.setSelected(true);
                     showFragmentByTag(TAG_HOME, HOME_INDEX);
                     setTitle(mStr);
@@ -220,6 +221,7 @@ public class MainActivity extends DBFragmentActivity implements IWhereMyLocation
         if (StringUtils.isStringEmpty(mTag)) {
             return;
         }
+
         FragmentManager mFragmentManager = getSupportFragmentManager();
         FragmentTransaction mFragmentTransaction = mFragmentManager.beginTransaction();
         Fragment mFragment = mFragmentManager.findFragmentByTag(mTag);
@@ -420,16 +422,19 @@ public class MainActivity extends DBFragmentActivity implements IWhereMyLocation
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             if (mCurrentIndex != HOME_INDEX) {
-/*                mDrawerAdapter.setSelectedDrawer(HOME_INDEX);
+                mDrawerAdapter.setSelectedDrawer(HOME_INDEX);
                 showFragmentByTag(TAG_HOME, HOME_INDEX);
                 invalidateOptionsMenu();
                 setVisibleButtonMenu(true);
+                /*
                 */
+                return true;
+
+            } else {
                 Intent mIntent = new Intent(MainActivity.this, WeatherActivity.class);
                 mIntent.putExtra(KEY_START_FROM, START_FROM_MAIN);
-                DirectionUtils.changeActivity(MainActivity.this, R.anim.slide_in_from_right, R.anim.slide_out_to_left, true, mIntent);
 
-                return true;
+                DirectionUtils.changeActivity(MainActivity.this, R.anim.slide_in_from_right, R.anim.slide_out_to_left, true, mIntent);
 
             }
         }

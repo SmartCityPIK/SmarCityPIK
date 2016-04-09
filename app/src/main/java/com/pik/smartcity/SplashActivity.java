@@ -223,6 +223,15 @@ public class SplashActivity extends DBFragmentActivity implements IDBTaskListene
     }
 
 
+    @Override
+    public void onDestroyData() {
+        super.onDestroyData();
+        ImageLoader.getInstance().stop();
+        TotalDataManager.getInstance().onDestroyTrackingService(getApplicationContext());
+        TotalDataManager.getInstance().onDestroy();
+        //showIntertestialAds();
+    }
+
     private void checkTurnOnGps(final IDBCallback mDBCallback) {
         int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(this);
         if (status == ConnectionResult.SUCCESS) {
@@ -257,5 +266,6 @@ public class SplashActivity extends DBFragmentActivity implements IDBTaskListene
                 finish();
             }
         }
+
     }
 }

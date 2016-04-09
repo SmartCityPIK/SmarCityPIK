@@ -65,6 +65,7 @@ public class DBFragmentActivity extends FragmentActivity implements IDBConstantU
     private int screenWidth;
     private int screenHeight;
     private InterstitialAd mInterstitial;
+    private boolean noDialog = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,11 +106,14 @@ public class DBFragmentActivity extends FragmentActivity implements IDBConstantU
 
     }
 */
-
+public void setNoDialog(boolean wDialog) {
+    this.noDialog = wDialog;
+}
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            showDialogFragment(DIALOG_QUIT_APPLICATION);
+            if (!noDialog)
+                showDialogFragment(DIALOG_QUIT_APPLICATION);
             return true;
         }
         return super.onKeyDown(keyCode, event);

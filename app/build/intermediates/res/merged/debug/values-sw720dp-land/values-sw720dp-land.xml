@@ -3,4 +3,6 @@
     <!-- From: file:/opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/src/main/res/values-sw720dp-land/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">128dp</dimen>
+    <dimen name="activity_vertical_margin">128dp</dimen>
+    <dimen name="fab_margin">128dp</dimen>
 </resources>
