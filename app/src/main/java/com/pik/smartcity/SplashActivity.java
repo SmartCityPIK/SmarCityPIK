@@ -208,13 +208,15 @@ public class SplashActivity extends DBFragmentActivity implements IDBTaskListene
             @Override
             public void run() {
                 mProgressBar.setVisibility(View.INVISIBLE);
-                Intent intent = new Intent(SplashActivity.this, WeatherActivity.class);
-                startActivity(intent);
+                //Intent intent = new Intent(SplashActivity.this, WeatherActivity.class);
+                //startActivity(intent);
+                //intent.putExtra(KEY_START_FROM, START_FROM_SPLASH);
+                //DirectionUtils.changeActivity(SplashActivity.this, R.anim.slide_in_from_right, R.anim.slide_out_to_left, true, intent);
 
-                //Intent mIntent = new Intent(SplashActivity.this, MainActivity.class);
+                Intent mIntent = new Intent(SplashActivity.this, WeatherActivity.class);
                 //startActivity(mIntent);
-                intent.putExtra(KEY_START_FROM, START_FROM_SPLASH);
-                DirectionUtils.changeActivity(SplashActivity.this, R.anim.slide_in_from_right, R.anim.slide_out_to_left, true, intent);
+                mIntent.putExtra(KEY_START_FROM, START_FROM_SPLASH);
+                DirectionUtils.changeActivity(SplashActivity.this, R.anim.slide_in_from_right, R.anim.slide_out_to_left, true, mIntent);
 
             }
         });

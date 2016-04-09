@@ -25,7 +25,6 @@ import android.widget.ListView;
 import android.widget.PopupMenu;
 import android.widget.SearchView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
@@ -307,9 +306,6 @@ public class MainActivity extends DBFragmentActivity implements IWhereMyLocation
             super.onBackPressed();
         }
 
-        //Intent intent = new Intent(MainActivity.this, WeatherActivity.class);
-        //startActivity(intent);
-
     }
 
     @Override
@@ -423,14 +419,19 @@ public class MainActivity extends DBFragmentActivity implements IWhereMyLocation
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-          /*  if (mCurrentIndex != HOME_INDEX) {
-                mDrawerAdapter.setSelectedDrawer(HOME_INDEX);
+            if (mCurrentIndex != HOME_INDEX) {
+/*                mDrawerAdapter.setSelectedDrawer(HOME_INDEX);
                 showFragmentByTag(TAG_HOME, HOME_INDEX);
                 invalidateOptionsMenu();
                 setVisibleButtonMenu(true);
+                */
+                Intent mIntent = new Intent(MainActivity.this, WeatherActivity.class);
+                mIntent.putExtra(KEY_START_FROM, START_FROM_MAIN);
+                DirectionUtils.changeActivity(MainActivity.this, R.anim.slide_in_from_right, R.anim.slide_out_to_left, true, mIntent);
+
                 return true;
-            }*/
-            Toast.makeText(this, "tombol back", Toast.LENGTH_LONG).show();
+
+            }
         }
         return super.onKeyDown(keyCode, event);
     }

@@ -98,7 +98,6 @@ com/google/android/gms/auth/api/signin/internal/zzf$zza.class
 com/pik/smartcity/DBFragmentActivity$1.class
 com/google/android/gms/internal/zzgx.class
 com/pik/smartcity/provider/MySuggestionDAO.class
-com/pik/smartcity/WeatherActivity$6.class
 com/google/android/gms/internal/zzba.class
 com/google/android/gms/gcm/OneoffTask.class
 android/support/v4/media/MediaBrowserCompat$MediaItem$Flags.class
@@ -263,6 +262,7 @@ android/support/v4/content/PermissionChecker$PermissionResult.class
 com/google/android/gms/wallet/fragment/BuyButtonText.class
 com/google/android/gms/cast/Cast$CastOptions.class
 android/support/v4/content/Loader.class
+com/pik/smartcity/fragment/FragmentWeather.class
 android/support/v4/media/RatingCompat$StarStyle.class
 com/google/android/gms/ads/internal/client/zzaf.class
 android/support/multidex/MultiDexExtractor$1.class
@@ -334,6 +334,7 @@ com/google/android/gms/internal/zzlf$zza.class
 com/pik/smartcity/MainSearchActivity$4.class
 com/google/android/gms/internal/zzia.class
 android/support/v4/view/ViewCompatJellybeanMr2.class
+com/pik/smartcity/fragment/FragmentAboutUs.class
 com/google/android/gms/common/SignInButton$ColorScheme.class
 com/google/android/gms/internal/zzfg.class
 com/google/android/gms/ads/internal/client/zzf.class
@@ -394,8 +395,8 @@ android/support/v7/app/ActionBar$TabListener.class
 com/google/android/gms/maps/SupportStreetViewPanoramaFragment.class
 android/support/v4/view/ViewCompatJellybeanMr1.class
 com/google/android/gms/internal/zzjs.class
-com/google/android/gms/internal/zzdw.class
 android/support/v4/media/VolumeProviderCompatApi21$Delegate.class
+com/google/android/gms/internal/zzdw.class
 com/google/android/gms/ads/internal/zzp.class
 com/google/android/gms/ads/internal/zze$zzb.class
 com/google/android/gms/ads/AdActivity.class
@@ -798,8 +799,8 @@ com/google/android/gms/internal/zzeq.class
 com/pik/smartcity/MainActivity$2.class
 android/support/v4/media/MediaMetadataCompat$TextKey.class
 com/google/android/gms/games/Player.class
-com/google/android/gms/ads/internal/request/zzd.class
 com/google/android/gms/internal/zzdg$zzb.class
+com/google/android/gms/ads/internal/request/zzd.class
 com/google/android/gms/internal/zzfx.class
 com/google/android/gms/location/LocationStatusCodes.class
 com/google/android/gms/internal/zzgk.class

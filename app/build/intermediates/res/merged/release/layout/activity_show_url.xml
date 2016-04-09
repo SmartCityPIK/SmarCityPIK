@@ -19,13 +19,13 @@
         android:layout_centerInParent="true"
         android:visibility="gone" />
 
-<!--
-    <RelativeLayout
-        android:id="@+id/layout_ad"
-        android:layout_width="match_parent"
-        android:layout_height="50sp"
-        android:layout_alignParentBottom="true"
-        android:gravity="center_horizontal"></RelativeLayout>
--->
+    <!--
+        <RelativeLayout
+            android:id="@+id/layout_ad"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"></RelativeLayout>
+    -->
 
 </RelativeLayout><!-- From: file:/opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/src/main/res/layout/activity_show_url.xml -->

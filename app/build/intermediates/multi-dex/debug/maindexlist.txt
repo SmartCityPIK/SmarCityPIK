@@ -98,7 +98,6 @@ com/google/android/gms/auth/api/signin/internal/zzf$zza.class
 com/pik/smartcity/DBFragmentActivity$1.class
 com/google/android/gms/internal/zzgx.class
 com/pik/smartcity/provider/MySuggestionDAO.class
-com/pik/smartcity/WeatherActivity$6.class
 com/google/android/gms/internal/zzba.class
 com/google/android/gms/gcm/OneoffTask.class
 android/support/v4/media/MediaBrowserCompat$MediaItem$Flags.class
@@ -263,6 +262,7 @@ android/support/v4/content/PermissionChecker$PermissionResult.class
 com/google/android/gms/wallet/fragment/BuyButtonText.class
 com/google/android/gms/cast/Cast$CastOptions.class
 android/support/v4/content/Loader.class
+com/pik/smartcity/fragment/FragmentWeather.class
 android/support/v4/media/RatingCompat$StarStyle.class
 com/google/android/gms/ads/internal/client/zzaf.class
 android/support/multidex/MultiDexExtractor$1.class

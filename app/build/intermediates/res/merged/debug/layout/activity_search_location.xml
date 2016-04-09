@@ -42,12 +42,12 @@
             android:layout_marginRight="5sp"
             android:visibility="gone" />
 
-<!--        <RelativeLayout
-            android:id="@+id/layout_ad"
-            android:layout_width="match_parent"
-            android:layout_height="50sp"
-            android:layout_alignParentBottom="true"
-            android:gravity="center_horizontal"></RelativeLayout>-->
+        <!--        <RelativeLayout
+                    android:id="@+id/layout_ad"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"></RelativeLayout>-->
     </RelativeLayout>
 
 

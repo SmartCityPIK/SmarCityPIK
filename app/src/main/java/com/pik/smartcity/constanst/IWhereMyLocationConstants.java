@@ -43,6 +43,7 @@ public interface IWhereMyLocationConstants {
 
     String TAG_HOME = "TAG_HOME";
     String TAG_ABOUT = "TAG_ABOUT";
+    String TAG_WEATHER = "TAG_WEATHER";
     String TAG_MY_LOCATION = "TAG_LOCATION";
     String TAG_FAVORITE = "TAG_FAVORITE";
     String TAG_SETTINGS = "TAG_SETTINGS";
@@ -51,6 +52,7 @@ public interface IWhereMyLocationConstants {
 
     String KEY_START_FROM = "KEY_START_FROM";
     String START_FROM_SPLASH = "splash";
+    String START_FROM_WEATHER = "weather";
     String START_FROM_SEARCH = "search";
     String START_FROM_TOTAL_PLACE = "totalPlace";
     String START_FROM_MAIN = "main";
@@ -76,7 +78,7 @@ public interface IWhereMyLocationConstants {
     int FAVORITES_INDEX = 2;
     int SETTINGS_INDEX = 3;
     int ABOUT_US_INDEX = 4;
-
+    int WEATHER_INDEX = 5;
     int MAP_INDEX = 1;
     int INVALID_LOCATION = 1;
 
