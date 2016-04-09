@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/menu_active" android:state_focused="true" />
-    <item android:drawable="@drawable/menu_active" android:state_pressed="true" />
-    <item android:drawable="@drawable/menu_normal" />
-</selector><!-- From: file:/opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/src/main/res/drawable/bt_menu.xml -->
