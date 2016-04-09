@@ -93,6 +93,9 @@ public class WeatherActivity extends DBFragmentActivity implements IWhereMyLocat
         traffic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent mIntent = new Intent(WeatherActivity.this, TrafficActivity.class);
+                mIntent.putExtra(KEY_START_FROM, START_FROM_WEATHER);
+                DirectionUtils.changeActivity(WeatherActivity.this, R.anim.slide_in_from_right, R.anim.slide_out_to_left, true, mIntent);
 
             }
         });
@@ -100,6 +103,9 @@ public class WeatherActivity extends DBFragmentActivity implements IWhereMyLocat
         cctv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent mIntent = new Intent(WeatherActivity.this, CCTVActivity.class);
+                mIntent.putExtra(KEY_START_FROM, START_FROM_WEATHER);
+                DirectionUtils.changeActivity(WeatherActivity.this, R.anim.slide_in_from_right, R.anim.slide_out_to_left, true, mIntent);
 
             }
         });
@@ -107,6 +113,9 @@ public class WeatherActivity extends DBFragmentActivity implements IWhereMyLocat
         sungai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent mIntent = new Intent(WeatherActivity.this, MonActivity.class);
+                mIntent.putExtra(KEY_START_FROM, START_FROM_WEATHER);
+                DirectionUtils.changeActivity(WeatherActivity.this, R.anim.slide_in_from_right, R.anim.slide_out_to_left, true, mIntent);
 
             }
         });

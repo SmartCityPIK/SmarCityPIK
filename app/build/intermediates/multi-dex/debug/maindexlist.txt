@@ -29,6 +29,7 @@ com/pik/smartcity/location/TrackRecordingService$2.class
 com/google/android/gms/internal/zzbq.class
 android/support/v4/view/ViewCompat$JBViewCompatImpl.class
 android/support/v4/media/VolumeProviderCompat$1.class
+com/google/android/gms/maps/CameraUpdateFactory.class
 android/support/annotation/Size.class
 com/google/android/gms/wearable/MessageApi.class
 com/google/android/gms/internal/zzgi.class
@@ -70,6 +71,7 @@ com/google/android/gms/nearby/messages/internal/RegisterStatusCallbackRequest.cl
 android/support/v7/app/ActionBar$OnMenuVisibilityListener.class
 com/google/android/gms/ads/mediation/admob/AdMobExtras.class
 com/google/android/gms/drive/query/Query$Builder.class
+com/pik/smartcity/CCTVActivity.class
 android/support/v4/widget/DrawerLayoutImpl.class
 com/pik/smartcity/location/ITrackRecordingService$Stub.class
 com/google/android/gms/common/internal/safeparcel/zza$zza.class
@@ -96,8 +98,8 @@ com/google/android/gms/internal/zzds.class
 android/support/v4/widget/MaterialProgressDrawable$1.class
 com/google/android/gms/auth/api/signin/internal/zzf$zza.class
 com/pik/smartcity/DBFragmentActivity$1.class
-com/google/android/gms/internal/zzgx.class
 com/pik/smartcity/provider/MySuggestionDAO.class
+com/google/android/gms/internal/zzgx.class
 com/google/android/gms/internal/zzba.class
 com/google/android/gms/gcm/OneoffTask.class
 android/support/v4/media/MediaBrowserCompat$MediaItem$Flags.class
@@ -193,8 +195,8 @@ android/support/v4/view/ViewCompat$EclairMr1ViewCompatImpl.class
 com/google/android/gms/games/Games.class
 android/support/annotation/RequiresPermission$Write.class
 com/google/android/gms/internal/zzjt.class
-com/google/android/gms/internal/zzcz.class
 com/google/android/gms/ads/internal/request/zzd$zza.class
+com/google/android/gms/internal/zzcz.class
 com/google/android/gms/auth/api/signin/internal/zzf.class
 com/google/android/gms/games/Games$GetServerAuthCodeResult.class
 -keep class com.pik.smartcity.ShowUrlActivity { <init>(); }
@@ -264,8 +266,8 @@ com/google/android/gms/cast/Cast$CastOptions.class
 android/support/v4/content/Loader.class
 com/pik/smartcity/fragment/FragmentWeather.class
 android/support/v4/media/RatingCompat$StarStyle.class
-com/google/android/gms/ads/internal/client/zzaf.class
 android/support/multidex/MultiDexExtractor$1.class
+com/google/android/gms/ads/internal/client/zzaf.class
 com/google/android/gms/internal/zzif.class
 android/support/v4/app/BackStackRecord$TransitionState.class
 android/support/annotation/MenuRes.class
@@ -279,8 +281,8 @@ com/google/android/gms/common/internal/zzx.class
 com/google/android/gms/internal/zzrp.class
 com/google/android/gms/internal/zzbf$zza.class
 com/google/android/gms/maps/MapFragment.class
-android/support/multidex/MultiDex$V4.class
 android/support/annotation/DrawableRes.class
+android/support/multidex/MultiDex$V4.class
 android/support/v4/app/BackStackState.class
 android/support/v4/app/NotificationCompat$Builder.class
 android/support/v4/media/session/PlaybackStateCompat$CustomAction.class
@@ -387,12 +389,13 @@ com/ypyproductions/location/utils/LocationUtils.class
 com/google/android/gms/internal/zzdc.class
 com/pik/smartcity/object/ResponcePlaceResult.class
 com/google/android/gms/internal/zzca.class
-com/google/android/gms/ads/internal/request/zzb$zza.class
 com/google/android/gms/internal/zzcw.class
 com/google/android/gms/analytics/HitBuilders$ItemBuilder.class
+com/google/android/gms/ads/internal/request/zzb$zza.class
 com/google/android/gms/drive/query/Query.class
 android/support/v7/app/ActionBar$TabListener.class
 com/google/android/gms/maps/SupportStreetViewPanoramaFragment.class
+com/google/android/gms/maps/model/LatLng.class
 android/support/v4/view/ViewCompatJellybeanMr1.class
 com/google/android/gms/internal/zzjs.class
 android/support/v4/media/VolumeProviderCompatApi21$Delegate.class
@@ -407,6 +410,7 @@ android/support/v4/media/RatingCompat$Style.class
 com/google/android/gms/internal/zzjp.class
 android/support/v4/widget/MaterialProgressDrawable.class
 com/google/android/gms/common/internal/safeparcel/SafeParcelable.class
+-keep class com.pik.smartcity.MonActivity { <init>(); }
 android/support/v4/media/VolumeProviderCompatApi21.class
 com/google/android/gms/auth/api/signin/GoogleSignInAccount.class
 android/support/v4/app/DialogFragment.class
@@ -467,6 +471,7 @@ android/support/v4/media/session/MediaSessionCompat$Token.class
 com/google/android/gms/ads/internal/zzm.class
 com/google/android/gms/R.class
 com/pik/smartcity/object/PlaceDetailObject.class
+com/google/android/gms/maps/UiSettings.class
 com/pik/smartcity/location/DBLastLocationFinder$ILastLocationFinder.class
 com/google/android/gms/internal/zziw.class
 com/google/android/gms/internal/zzbz.class
@@ -492,6 +497,7 @@ com/google/android/gms/maps/StreetViewPanoramaView.class
 com/google/android/gms/appindexing/AppIndexApi$ActionResult.class
 com/google/android/gms/internal/zzdg$zzc.class
 com/google/android/gms/internal/zzbw.class
+com/google/android/gms/maps/CameraUpdate.class
 android/support/v7/widget/LinearLayoutCompat$OrientationMode.class
 com/google/android/gms/ads/internal/client/zze.class
 com/google/android/gms/internal/zzlf.class
@@ -507,6 +513,7 @@ com/google/android/gms/wallet/firstparty/GetBuyFlowInitializationTokenRequest.cl
 com/google/android/gms/internal/zzqu.class
 com/google/android/gms/analytics/Logger$LogLevel.class
 android/support/v4/media/MediaBrowserCompat.class
+-keep class com.pik.smartcity.CCTVActivity { <init>(); }
 android/support/v4/util/DebugUtils.class
 com/google/android/gms/measurement/internal/zzm$zza.class
 com/google/android/gms/internal/zzgo.class
@@ -518,6 +525,7 @@ com/google/ads/mediation/customevent/CustomEventServerParameters.class
 android/support/multidex/MultiDex.class
 com/google/android/gms/playlog/internal/PlayLoggerContext.class
 com/google/android/gms/wearable/NodeApi$NodeListener.class
+com/pik/smartcity/TrafficActivity$OnSearchListener.class
 com/google/android/gms/measurement/AppMeasurementService.class
 android/support/v4/media/MediaMetadataCompat$LongKey.class
 com/google/android/gms/wearable/NodeApi.class
@@ -570,6 +578,7 @@ android/support/v4/app/ActivityCompat.class
 android/support/v4/view/ViewPager$OnPageChangeListener.class
 com/pik/smartcity/MainSearchActivity$1.class
 com/google/android/gms/internal/zzjq.class
+-keep class com.pik.smartcity.TrafficActivity { <init>(); }
 android/support/v4/media/session/PlaybackStateCompatApi22.class
 -keep class com.pik.smartcity.location.TrackRecordingService { <init>(); }
 com/google/android/gms/ads/internal/zzf.class
@@ -595,6 +604,7 @@ com/google/android/gms/common/data/DataBuffer.class
 com/google/android/gms/wearable/ChannelApi$ChannelListener.class
 com/google/android/gms/games/leaderboard/Leaderboard.class
 com/google/android/gms/nearby/messages/internal/GetPermissionStatusRequest.class
+com/pik/smartcity/TrafficActivity.class
 com/google/android/gms/auth/AccountChangeEventsRequest.class
 com/pik/smartcity/MainActivity$3.class
 android/support/v4/app/ActivityCompatApi23.class
@@ -639,6 +649,7 @@ com/google/android/gms/wearable/DataApi$DataItemResult.class
 com/google/android/gms/internal/zzjh.class
 com/google/android/gms/auth/zzd.class
 com/pik/smartcity/settings/ISettingConstants.class
+com/pik/smartcity/CCTVActivity$OnSearchListener.class
 com/google/ads/mediation/MediationInterstitialAdapter.class
 android/support/annotation/TransitionRes.class
     *;
@@ -684,6 +695,7 @@ com/google/android/gms/ads/internal/client/zzae.class
 com/pik/smartcity/SplashActivity$6.class
 com/google/android/gms/internal/zzhr.class
 com/google/ads/mediation/customevent/CustomEventBanner.class
+com/pik/smartcity/MonActivity$OnSearchListener.class
 android/support/annotation/IdRes.class
 android/support/v4/app/FragmentManagerImpl$5.class
 com/pik/smartcity/SplashActivity$1.class
@@ -708,8 +720,8 @@ android/support/v4/media/session/MediaControllerCompat.class
 com/google/android/gms/ads/MobileAds$Settings.class
 com/google/android/gms/internal/zzic.class
 com/google/android/gms/auth/api/signin/internal/zzi.class
-com/google/android/gms/identity/intents/AddressConstants$Themes.class
 com/google/android/gms/ads/internal/request/zza.class
+com/google/android/gms/identity/intents/AddressConstants$Themes.class
 com/google/android/gms/wearable/DataApi$DataListener.class
 android/support/annotation/AnyRes.class
 android/support/annotation/DimenRes.class
@@ -733,8 +745,8 @@ com/google/android/gms/wallet/fragment/WalletFragmentStyle$Dimension.class
 com/google/android/gms/internal/zzge.class
 android/support/v4/widget/CursorAdapter.class
 com/pik/smartcity/object/PlaceObject.class
-com/google/android/gms/auth/api/signin/internal/zzq.class
 com/google/android/gms/maps/GoogleMap.class
+com/google/android/gms/auth/api/signin/internal/zzq.class
 com/google/android/gms/ads/AdRequest.class
 com/google/android/gms/common/annotation/KeepName.class
 com/google/android/gms/ads/internal/overlay/zzt.class
@@ -778,6 +790,7 @@ com/pik/smartcity/view/NewIOUtils.class
 com/google/android/gms/wearable/ChannelApi$CloseReason.class
 com/google/android/gms/appinvite/AppInviteInvitation$IntentBuilder.class
 com/google/android/gms/internal/zzdr.class
+com/google/android/gms/maps/model/Marker.class
 com/google/android/gms/internal/zzfq.class
 com/google/android/gms/wearable/MessageApi$FilterType.class
 com/google/android/gms/nearby/messages/devices/NearbyDevice.class
@@ -785,9 +798,9 @@ com/google/android/gms/internal/zzio.class
 com/google/android/gms/location/places/PlaceFilter.class
 com/google/android/gms/internal/zzjv.class
 com/google/android/gms/internal/zzgy.class
-android/support/v4/media/VolumeProviderCompat.class
-com/google/android/gms/internal/zzcy.class
 com/google/android/gms/internal/zzjj.class
+com/google/android/gms/internal/zzcy.class
+android/support/v4/media/VolumeProviderCompat.class
 com/google/android/gms/measurement/AppMeasurementService$1.class
 com/google/android/gms/internal/zzeu.class
 com/pik/smartcity/adapter/DrawerSearchAdapter.class
@@ -806,6 +819,7 @@ com/google/android/gms/location/LocationStatusCodes.class
 com/google/android/gms/internal/zzgk.class
 android/support/v4/util/LogWriter.class
 com/pik/smartcity/dataMng/TotalDataManager.class
+com/google/android/gms/maps/OnMapReadyCallback.class
 android/support/v4/graphics/drawable/DrawableCompat.class
 com/google/android/gms/maps/SupportMapFragment.class
 com/google/android/gms/ads/internal/zzh.class
@@ -865,6 +879,7 @@ android/support/annotation/WorkerThread.class
 android/support/v4/media/MediaBrowserCompat$MediaItem.class
 android/support/v4/view/WindowInsetsCompat.class
 com/ypyproductions/utils/DirectionUtils.class
+com/pik/smartcity/MonActivity.class
 android/support/v4/view/ViewCompat$JbMr1ViewCompatImpl.class
 com/google/android/gms/fitness/Fitness.class
 com/google/android/gms/ads/internal/reward/client/zzf.class
@@ -893,6 +908,7 @@ com/google/android/gms/auth/firstparty/shared/zzd.class
 com/google/android/gms/ads/internal/formats/zza.class
 com/google/android/gms/internal/zzhd.class
 com/google/android/gms/ads/internal/zze.class
+com/google/android/gms/maps/model/MarkerOptions.class
 android/support/annotation/VisibleForTesting.class
 com/google/android/gms/games/achievement/Achievement.class
 android/support/v7/graphics/drawable/DrawerArrowDrawable$ArrowDirection.class

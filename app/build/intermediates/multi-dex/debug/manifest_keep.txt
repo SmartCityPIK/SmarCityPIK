@@ -9,6 +9,9 @@
 -keep class com.pik.smartcity.DetailLocationAcitivity { <init>(); }
 -keep class com.pik.smartcity.ShowUrlActivity { <init>(); }
 -keep class com.pik.smartcity.WeatherActivity { <init>(); }
+-keep class com.pik.smartcity.MonActivity { <init>(); }
+-keep class com.pik.smartcity.CCTVActivity { <init>(); }
+-keep class com.pik.smartcity.TrafficActivity { <init>(); }
 -keep class com.pik.smartcity.provider.MySuggestionProvider { <init>(); }
 -keep class com.pik.smartcity.location.TrackRecordingService { <init>(); }
 -keep class com.google.android.gms.ads.AdActivity { <init>(); }
