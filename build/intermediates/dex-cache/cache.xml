@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="db0f122c99ef9f90dbab3fada6d191f2880cbb8e">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/android-support-v4-103023e4b1a7fdc8240fd1ee339b7fc24275b304.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-25bcce516bfb9054c8794ec85265247bb304a713.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-6b12cbd4fc239ef3c0532b46f4f5ab7aec270d31.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-2071dbd4b703a2f555a706e1211c1f3a9fa74acd.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-c3b2ef8855c0a78db4c572038def37e92d247067.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-20169cd1a644738dece8f330fc02c08db8919134.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-cae9c1bc453db6129bc1ba2318f5e315bc538796.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-0423174ab7d0b36b98404c7a454d8e9d950665f8.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-dc391fa72c38430098c63ec62cf65618e087ebdf.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-e7cd71c77a7fa619c1fb406c4c636ea6b217af4b.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-8a5d43bbc28abe789723cdfa25051d20ba9afadc.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-a9a59e5c1f53f1f883f195e91f0b4adc6279dad0.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-c306543f3619d7249de7e2218022f2afb8cd20d9.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-183f615bab171b615fe6b27af12cfa7b7f25fd48.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-5a34555e92faeca9658c3f86610ab5c30d79b69d.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-8aab4156e64969e28786533841d4d514d0bc67d1.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-702b9f46b080d71d59c9ec46c05fb8dad3ad4ad0.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-dc6a3e73b7c0152aeb4c05e6cfba0a903d0a3904.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-155b2539e10296558ce683185b0464ae4cea8e2e.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-153d46cc912fe0adecee332b19ec1e7b67432d77.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-40a97e23b0ecd81c11380090b106c8644297981f.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/libs/ypylibs.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ac1684fa1e9105fca9400a1176a1919ba73c9774">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/ypylibs-7589601afa4d00c27bf2f7793392c30dcc42f3c9.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-0e4eeb897bd6c468b6c8661da2edd572c2b98139.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/libs/httpmime-4.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="92b7ae91cb55150192341962dd7254ef898768ca">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/httpmime-4.2.2-ca6f0a0044e5dece8ede0f6b70b096059ef74653.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/AndroidTools/adt-bundle-mac-x86_64/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-722398749d85a04051a3c1467dd729a4adc63255.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-befea0032859881d2c97b837bab9892e490e5df4.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-cdb9af2af06fbd97d1cd85af253abed467773d7d.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-299ea9655aa36aae8a74542c382afca862155c5f.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-5a753204c569567164d7ed7b91ad01f56e72ee75.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-918d62eeb938b6665c7f3f7f8b0fd7033179dbae.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/classes-d71233d6f5d11ceb03eb3785d247e2fe6653194f.jar" />
+    </item>
+    <item
+        jar="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/dotrungbao/Desktop/WheresMyPlacesCodeCayon/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-da76ac0f3063a78ab4d80959b5d74e2155a6d22e.jar" />
+    </item>
+
+</items>

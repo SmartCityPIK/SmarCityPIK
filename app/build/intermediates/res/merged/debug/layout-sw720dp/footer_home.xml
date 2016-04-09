@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150sp"
+    android:background="@color/white">
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout><!-- From: file:/opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/src/main/res/layout-sw720dp/footer_home.xml -->

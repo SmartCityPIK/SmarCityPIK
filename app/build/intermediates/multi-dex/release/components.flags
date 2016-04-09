@@ -1,0 +1,94 @@
+-injars /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/build/intermediates/multi-dex/release/allclasses.jar
+-outjars /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/build/intermediates/multi-dex/release/componentClasses.jar
+
+-libraryjars /opt/android-sdk-linux/build-tools/23.0.0/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/build/intermediates/multi-dex/release/components.flags
+
+
+-keep class com.pik.smartcity.WheresMyPlacesApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.pik.smartcity.SplashActivity {
+    <init>();
+}
+
+-keep class com.pik.smartcity.MainActivity {
+    <init>();
+}
+
+-keep class com.pik.smartcity.MainSearchActivity {
+    <init>();
+}
+
+-keep class com.pik.smartcity.TotalLocationInMapActivity {
+    <init>();
+}
+
+-keep class com.pik.smartcity.DetailLocationAcitivity {
+    <init>();
+}
+
+-keep class com.pik.smartcity.ShowUrlActivity {
+    <init>();
+}
+
+-keep class com.pik.smartcity.WeatherActivity {
+    <init>();
+}
+
+-keep class com.pik.smartcity.provider.MySuggestionProvider {
+    <init>();
+}
+
+-keep class com.pik.smartcity.location.TrackRecordingService {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.appinvite.PreviewActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
