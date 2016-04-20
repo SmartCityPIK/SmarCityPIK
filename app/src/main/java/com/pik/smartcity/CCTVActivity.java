@@ -4,14 +4,19 @@ import android.app.SearchManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ListView;
 import android.widget.SearchView;
+import android.widget.TextView;
 
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.pik.smartcity.adapter.DrawerAdapter;
@@ -22,6 +27,9 @@ import com.pik.smartcity.object.KeywordObject;
 import com.pik.smartcity.provider.MySuggestionDAO;
 import com.ypyproductions.utils.DBLog;
 import com.ypyproductions.utils.DirectionUtils;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -41,6 +49,7 @@ public class CCTVActivity extends DBFragmentActivity implements IWhereMyLocation
 
     public static final String TAG = CCTVActivity.class.getSimpleName();
     public DisplayImageOptions mImgOptions;
+    TextView textView;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerListView;
     private ActionBarDrawerToggle mDrawerToggle;
@@ -55,7 +64,7 @@ public class CCTVActivity extends DBFragmentActivity implements IWhereMyLocation
     //private AdView adView;
     private Uri mQueryUri;
     private SearchView searchView;
-
+    private Handler handler;
     private MenuItem menuSearchItem;
 
     @Override
@@ -67,6 +76,13 @@ public class CCTVActivity extends DBFragmentActivity implements IWhereMyLocation
         if (mIntent != null) {
             mStartFrom = mIntent.getStringExtra(KEY_START_FROM);
         }
+        //textView = (TextView) findViewById(R.id.textView);
+        //handler = new Handler();
+        //updateImage();
+        WebView webView = (WebView) findViewById(R.id.webViewCCTV);
+        webView.setWebViewClient(new WebViewClient());
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.loadUrl("http://frozenfire.us/demo/pik/cctv.php");
 
         handleIntent(getIntent());
     }
@@ -87,6 +103,39 @@ public class CCTVActivity extends DBFragmentActivity implements IWhereMyLocation
         }
     }
 */
+
+    private void updateImage() {
+        new Thread() {
+            public void run() {
+                final JSONObject json = RemoteFetchCCTV.getJSON(CCTVActivity.this);
+                if (json == null) {
+                } else {
+                    handler.post(new Runnable() {
+                        public void run() {
+                            getImageCCTV(json);
+                        }
+                    });
+                }
+            }
+        }.start();
+    }
+
+    private void getImageCCTV(JSONObject json) {
+        try {
+            String str;
+            // str = json.getString("name").toUpperCase(Locale.getDefault()) + ", " + json.getJSONObject("sys").getString("country");
+            //cityField.setText(str);
+            JSONArray objects = (JSONArray) json.get("objects");
+
+            JSONObject objects2 = objects.getJSONObject(9);
+            String urlImg;
+            urlImg = objects2.getString("mobile_image_url");
+            //textView.setText(urlImg);
+        } catch (Exception e) {
+            Log.e("Simple Weather", "One or more fields not found in the JSON data");
+        }
+    }
+
 
 
     @Override
@@ -154,6 +203,14 @@ public class CCTVActivity extends DBFragmentActivity implements IWhereMyLocation
 
     public interface OnSearchListener {
         void onSearch(HomeSearchObject mHomeSearchObject);
+    }
+
+    private class MyWebViewClientCCTV extends WebViewClient {
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            view.loadUrl(url);
+            return true;
+        }
     }
 
 }

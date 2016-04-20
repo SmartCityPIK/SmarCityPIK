@@ -387,11 +387,11 @@ ADDED from /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/Andro
 	android:name
 		ADDED from /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/src/main/AndroidManifest.xml:121:18-81
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/src/main/AndroidManifest.xml:123:9-125:39
+ADDED from /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/src/main/AndroidManifest.xml:123:9-125:72
 	android:name
 		ADDED from /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/src/main/AndroidManifest.xml:124:13-62
 	android:value
-		ADDED from /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/src/main/AndroidManifest.xml:125:13-36
+		ADDED from /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/src/main/AndroidManifest.xml:125:13-68
 uses-sdk
 INJECTED from /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:multidex:1.0.1] /opt/DevAndroidApp/codecanyon-8234...heres-my-places/SourceCode/AndroidStudio/WheresMyPlacesCodeCayon/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42

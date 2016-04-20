@@ -10,6 +10,8 @@ import android.support.v4.widget.DrawerLayout;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ListView;
 import android.widget.SearchView;
 
@@ -64,10 +66,15 @@ public class MonActivity extends DBFragmentActivity implements IWhereMyLocationC
         setContentView(R.layout.activity_mon);
         setNoDialog(true);
 
+
         Intent mIntent = getIntent();
         if (mIntent != null) {
             mStartFrom = mIntent.getStringExtra(KEY_START_FROM);
         }
+        WebView webView = (WebView) findViewById(R.id.webView);
+        webView.setWebViewClient(new WebViewClient());
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.loadUrl("http://cctv2.cablenet.asia:2101");
 
         handleIntent(getIntent());
     }
@@ -156,4 +163,11 @@ public class MonActivity extends DBFragmentActivity implements IWhereMyLocationC
         void onSearch(HomeSearchObject mHomeSearchObject);
     }
 
+    private class MyWebViewClient extends WebViewClient {
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            view.loadUrl(url);
+            return true;
+        }
+    }
 }

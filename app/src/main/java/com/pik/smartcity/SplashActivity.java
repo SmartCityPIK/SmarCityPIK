@@ -16,6 +16,7 @@ import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
+import com.pik.smartcity.adapter.DrawerAdapter;
 import com.pik.smartcity.constanst.IWhereMyLocationConstants;
 import com.pik.smartcity.dataMng.JsonParsingUtils;
 import com.pik.smartcity.dataMng.TotalDataManager;
@@ -55,7 +56,7 @@ public class SplashActivity extends DBFragmentActivity implements IDBTaskListene
     private ProgressBar mProgressBar;
     private boolean isPressBack;
     private DBTask mDBTask;
-
+    private DrawerAdapter mDrawerAdapter;
     private Handler mHandler = new Handler();
     private ArrayList<HomeSearchObject> mListHomeObjects;
     private TextView mTvCopyright;
@@ -127,10 +128,14 @@ public class SplashActivity extends DBFragmentActivity implements IDBTaskListene
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            if (isPressBack) {
-                TotalDataManager.getInstance().onDestroy();
-                finish();
-            }
+            //mDrawerAdapter.setSelectedDrawer(WEATHER_INDEX);
+            showDialogFragment(DIALOG_QUIT_APPLICATION);
+            onDestroyData();
+            //mHandler.removeCallbacksAndMessages(null);
+            //showFragmentByTag(TAG_WEATHER, WEATHER_INDEX);
+            //invalidateOptionsMenu();
+            //setVisibleButtonMenu(true);
+
             return true;
         }
         return super.onKeyDown(keyCode, event);
